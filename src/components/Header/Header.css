@@ -1,0 +1,38 @@
+@keyframes rotation {
+  0% {
+    transform: rotate(360deg);
+  }
+  20% {
+    transform: rotate(0deg);
+  }
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__logo {
+  width: 36px;
+  height: 36px;
+  background: url("../../images/pena-logo.jpg");
+  background-size: cover;
+  animation-name: rotation;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+.header__contacts {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header__contacts-heading {
+  margin: 0;
+}
+
+.header__contact-link {
+  text-decoration: none;
+  color: inherit;
+}

@@ -1,0 +1,11 @@
+.main {
+  text-align: center;
+}
+
+.main__heading {
+  color: #fff;
+  font-size: 46px;
+  max-width: 600px;
+  margin: 0 auto;
+  opacity: 1;
+}
